@@ -1,3 +1,5 @@
+<img src="splash.png"/>
+
 Geocraft - Georgian Minecraft Clone / Qartuli Minecraft Kloni / ქართული მაინქრაფტის კლონი
 
 Guide [EN]:
