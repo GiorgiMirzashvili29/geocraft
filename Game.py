@@ -414,7 +414,7 @@ class MyGame(ShowBase):
         self.camLens.setFov(90)
 
         crosshairs = OnscreenImage(
-            image = 'cbt-panda3d-minecraft-main/crosshairs.png',
+            image = 'assets/crosshairs.png',
             pos = (0, 0, 0),
             scale = 0.05,
         )
@@ -430,7 +430,7 @@ class MyGame(ShowBase):
         self.cTrav.addCollider(rayNodePath, self.rayQueue)
 
     def setupSkybox(self):
-        skybox = loader.loadModel('cbt-panda3d-minecraft-main/skybox/skybox.egg')
+        skybox = loader.loadModel('assets/skybox/skybox.egg')
         skybox.setScale(500)
         skybox.setBin('background', 1)
         skybox.setDepthWrite(0)
@@ -473,10 +473,10 @@ class MyGame(ShowBase):
 
 
     def loadModels(self):
-        self.grassBlock = loader.loadModel('cbt-panda3d-minecraft-main/grass-block.glb')
-        self.dirtBlock = loader.loadModel('cbt-panda3d-minecraft-main/dirt-block.glb')
-        self.stoneBlock = loader.loadModel('cbt-panda3d-minecraft-main/stone-block.glb')
-        self.sandtBlock = loader.loadModel('cbt-panda3d-minecraft-main/sand-block.glb')
+        self.grassBlock = loader.loadModel('assets/grass-block.glb')
+        self.dirtBlock = loader.loadModel('assets/dirt-block.glb')
+        self.stoneBlock = loader.loadModel('assets/stone-block.glb')
+        self.sandtBlock = loader.loadModel('assets/sand-block.glb')
 
 
     def setupLights(self):
