@@ -31,3 +31,5 @@ You have 4 blocks to choose from:
    სესიის განმავლობაში, მესამე კი გიჩვენებს რა ტიპის ბლოკი გაქვს არჩეული
    ამ მომენტში.
    
+
+Full Manual / სრული ინსტრუქცია: https://geocraft.neocities.org
