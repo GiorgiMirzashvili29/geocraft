@@ -32,7 +32,14 @@ You have 4 blocks to choose from:
    რომლებიც გეუბნება თუ რამდენი ბლოკი გაქვს დადებული / მოტეხილი
    სესიის განმავლობაში, მესამე კი გიჩვენებს რა სახის ბლოკი გაქვს არჩეული
    ამ მომენტში.
-   
+
+
+Game uses open source graphics engine - Panda3D / თამაში იყენებს Panda3D გრაფიკულ ძრავას
+Installation / ინსტალაცია:
+
+```
+pip install panda3d
+```
 
 Full Manual / სრული ინსტრუქცია: https://geocraft.neocities.org
 
