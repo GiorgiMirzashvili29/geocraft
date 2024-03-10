@@ -12,7 +12,7 @@ from panda3d.core import TextNode
 from panda3d.core import WindowProperties
 from panda3d.core import ClockObject
 from panda3d.core import Camera
-from panda3d.core import CollisionNode, CollisionBox, CollisionTraverser, CollisionHandlerQueue, BitMask32
+from panda3d.core import CollisionNode, CollisionBox, CollisionTraverser, CollisionHandlerQueue, BitMask32, CollisionHandlerFloor
 from direct.gui.DirectGui import *
 
 def degToRad(degrees):
@@ -463,7 +463,7 @@ class MyGame(ShowBase):
         elif type == 'stone':
             self.stoneBlock.instanceTo(newBlockNode)
         elif type == 'sand':
-            self.sandtBlock.instanceTo(newBlockNode)
+            self.sandBlock.instanceTo(newBlockNode)
 
         blockSolid = CollisionBox((-1, -1, -1), (1, 1, 1))
         blockNode = CollisionNode('block-collision-node')
@@ -476,7 +476,7 @@ class MyGame(ShowBase):
         self.grassBlock = loader.loadModel('assets/grass-block.glb')
         self.dirtBlock = loader.loadModel('assets/dirt-block.glb')
         self.stoneBlock = loader.loadModel('assets/stone-block.glb')
-        self.sandtBlock = loader.loadModel('assets/sand-block.glb')
+        self.sandBlock = loader.loadModel('assets/sand-block.glb')
 
 
     def setupLights(self):
